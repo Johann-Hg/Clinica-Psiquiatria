@@ -2,7 +2,7 @@
 
 import { useState } from "react"
 import Image from "next/image"
-import { Award, GraduationCap, Stethoscope, BookOpen, Brain, X } from "lucide-react"
+import { Award, GraduationCap, Stethoscope, BookOpen, Brain } from "lucide-react"
 import {
   Dialog,
   DialogContent,
@@ -112,10 +112,10 @@ export function Doctor() {
             <button
               key={doctor.id}
               onClick={() => setSelected(doctor)}
-              className="group flex flex-col items-center gap-6 rounded-2xl border border-border bg-card p-8 text-left shadow-sm transition-all duration-200 hover:shadow-lg hover:border-primary/40 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-primary lg:flex-row lg:gap-8"
+              className="group flex flex-col items-center gap-6 overflow-hidden rounded-2xl border border-border bg-card p-8 text-left shadow-sm transition-all duration-200 hover:shadow-lg hover:border-primary/40 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-primary lg:flex-row lg:gap-8"
             >
               {/* Image */}
-              <div className="relative shrink-0">
+              <div className="relative shrink-0 pb-3 pr-3">
                 <div className="relative size-48 overflow-hidden rounded-2xl shadow-xl lg:size-56">
                   <Image
                     src={doctor.image}
@@ -125,7 +125,7 @@ export function Doctor() {
                     sizes="(max-width: 768px) 192px, 224px"
                   />
                 </div>
-                <div className="absolute -bottom-3 -right-3 rounded-xl border border-border bg-card px-4 py-2 shadow-md">
+                <div className="absolute bottom-0 right-0 rounded-xl border border-border bg-card px-4 py-2 shadow-md">
                   <p className="text-xs font-medium text-muted-foreground">CRM/SP</p>
                   <p className="text-sm font-bold text-primary">{doctor.crm}</p>
                 </div>
@@ -139,7 +139,7 @@ export function Doctor() {
                   {doctor.modal.description[0]}
                 </p>
 
-                <div className="mt-6 flex flex-col gap-3 sm:flex-row sm:gap-6">
+                <div className="mt-6 flex flex-wrap gap-3">
                   {doctor.stats.map(({ icon: Icon, label, sub }) => (
                     <div key={sub} className="flex items-center gap-2">
                       <div className="flex size-9 items-center justify-center rounded-lg bg-primary/10">

@@ -10,6 +10,7 @@ const navLinks = [
   { label: "Tratamentos", href: "#tratamentos" },
   { label: "Médico", href: "#medico" },
   { label: "Contato", href: "#contato" },
+  { label: "Loja", href: "/loja" },
 ]
 
 export function Header() {
