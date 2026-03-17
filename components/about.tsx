@@ -33,7 +33,7 @@ export function About() {
             Excelência em saúde mental
           </h2>
           <p className="mt-4 text-pretty leading-relaxed text-muted-foreground">
-            A Clínica NeuroViva é referência em tratamentos de saúde mental com
+            A Clinica Hummig é referência em tratamentos de saúde mental com
             Estimulação Magnética Transcraniana. Nossa equipe combina
             profissionalismo, ética médica e tecnologia de ponta para oferecer o
             melhor cuidado aos nossos pacientes.

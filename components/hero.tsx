@@ -51,7 +51,7 @@ export function Hero() {
           <div className="relative aspect-[4/3] w-full overflow-hidden rounded-2xl shadow-2xl lg:aspect-[3/2]">
             <Image
               src="/images/hero-emt.jpg"
-              alt="Ambiente moderno da Clínica NeuroViva com equipamento de Estimulação Magnética Transcraniana"
+              alt="Ambiente moderno da Clinica Hummig com equipamento de Estimulação Magnética Transcraniana"
               fill
               className="object-cover"
               priority

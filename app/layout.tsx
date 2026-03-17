@@ -15,12 +15,12 @@ const _playfair = Playfair_Display({
 })
 
 // TODO: atualize para o domínio real antes de publicar
-const siteUrl = 'https://neuroviva.com.br'
+const siteUrl = 'https://clinicahummig.com.br'
 
 export const metadata: Metadata = {
   title: {
-    default: 'Clínica NeuroViva | Estimulação Magnética Transcraniana (EMT)',
-    template: '%s | Clínica NeuroViva',
+    default: 'Clinica Hummig | Estimulação Magnética Transcraniana (EMT)',
+    template: '%s | Clinica Hummig',
   },
   description:
     'Clínica especializada em Estimulação Magnética Transcraniana (EMT). Tratamento avançado e seguro para depressão, ansiedade, TOC e outros transtornos neuropsiquiátricos em São Paulo.',
@@ -39,8 +39,8 @@ export const metadata: Metadata = {
     'São Paulo',
     'ETCC',
   ],
-  authors: [{ name: 'Clínica NeuroViva' }],
-  creator: 'Clínica NeuroViva',
+  authors: [{ name: 'Clinica Hummig' }],
+  creator: 'Clinica Hummig',
   robots: {
     index: true,
     follow: true,
@@ -58,8 +58,8 @@ export const metadata: Metadata = {
     type: 'website',
     locale: 'pt_BR',
     url: siteUrl,
-    siteName: 'Clínica NeuroViva',
-    title: 'Clínica NeuroViva | Estimulação Magnética Transcraniana (EMT)',
+    siteName: 'Clinica Hummig',
+    title: 'Clinica Hummig | Estimulação Magnética Transcraniana (EMT)',
     description:
       'Clínica especializada em Estimulação Magnética Transcraniana (EMT). Tratamento avançado e seguro para depressão, ansiedade, TOC e outros transtornos neuropsiquiátricos em São Paulo.',
     images: [
@@ -67,13 +67,13 @@ export const metadata: Metadata = {
         url: `${siteUrl}/images/hero-emt.jpg`,
         width: 1200,
         height: 630,
-        alt: 'Clínica NeuroViva - Estimulação Magnética Transcraniana em São Paulo',
+        alt: 'Clinica Hummig - Estimulação Magnética Transcraniana em São Paulo',
       },
     ],
   },
   twitter: {
     card: 'summary_large_image',
-    title: 'Clínica NeuroViva | Estimulação Magnética Transcraniana (EMT)',
+    title: 'Clinica Hummig | Estimulação Magnética Transcraniana (EMT)',
     description:
       'Tratamento avançado para depressão, ansiedade, TOC e outros transtornos. Agende sua consulta.',
     images: [`${siteUrl}/images/hero-emt.jpg`],
@@ -106,7 +106,7 @@ export const viewport: Viewport = {
 const jsonLd = {
   '@context': 'https://schema.org',
   '@type': 'MedicalClinic',
-  name: 'Clínica NeuroViva',
+  name: 'Clinica Hummig',
   description:
     'Clínica especializada em Estimulação Magnética Transcraniana (EMT) para tratamento de depressão, ansiedade, TOC e outros transtornos neuropsiquiátricos.',
   url: siteUrl,

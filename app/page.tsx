@@ -6,6 +6,7 @@ import { Conditions } from "@/components/conditions"
 import { Doctor } from "@/components/doctor"
 import { Contact } from "@/components/contact"
 import { Footer } from "@/components/footer"
+import { WhatsAppFab } from "@/components/whatsapp-fab"
 
 export default function Home() {
   return (
@@ -20,6 +21,7 @@ export default function Home() {
         <Contact />
       </main>
       <Footer />
+      <WhatsAppFab />
     </>
   )
 }

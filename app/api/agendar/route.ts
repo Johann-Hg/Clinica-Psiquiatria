@@ -43,7 +43,7 @@ async function createCalendarEvent(data: FormData) {
     `Telefone: ${data.phone}`,
     data.motivo ? `Motivo: ${data.motivo}` : null,
     ``,
-    `Agendado via site Clínica NeuroViva em ${submittedAt}`,
+    `Agendado via site Clinica Hummig em ${submittedAt}`,
   ]
     .filter(Boolean)
     .join("\n")
@@ -91,7 +91,7 @@ async function sendWhatsAppNotification(data: FormData) {
   )
 
   const body = [
-    `🏥 *Nova consulta solicitada — Clínica NeuroViva*`,
+    `🏥 *Nova consulta solicitada — Clinica Hummig*`,
     ``,
     `👤 *Paciente:* ${data.name}`,
     `📧 *E-mail:* ${data.email}`,

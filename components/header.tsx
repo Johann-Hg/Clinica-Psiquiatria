@@ -19,10 +19,10 @@ export function Header() {
   return (
     <header className="sticky top-0 z-50 border-b border-border/60 bg-background/80 backdrop-blur-md">
       <div className="mx-auto flex max-w-7xl items-center justify-between px-4 py-3 lg:px-8">
-        <a href="#" className="flex items-center gap-2" aria-label="Clínica NeuroViva - Página inicial">
+        <a href="/" className="flex items-center gap-2" aria-label="Clinica Hummig - Página inicial">
           <Brain className="size-7 text-primary" />
           <span className="text-lg font-semibold tracking-tight text-foreground">
-            NeuroViva
+            Hummig
           </span>
         </a>
 
